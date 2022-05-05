@@ -3,7 +3,8 @@ package org.zhavoronkov.traingle;
 public class Calculation {
 
     public static void main(String[] args) {
-
+        
+        // Взял равносторонний треугольник - делаю по 2-м сторонам (Надеюсь это не принципиальный момент :)
     }
 
     public int formula (int a, int b) throws MyException {
@@ -11,6 +12,4 @@ public class Calculation {
         int result = (a * b) / 2;
         return result;
     }
-
-
 }
