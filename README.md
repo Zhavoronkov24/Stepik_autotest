@@ -2,8 +2,4 @@
 
 Уважаемый ревьюер/преподаватель, 
 
-на данный момент готово ДЗ №4, но вы можете найти также файлы с ДЗ №3. 
-
-ДЗ №3 еще не закончено!
-
-(readme обновляется по выполнению ДЗ)
+К ДЗ №3 вы можете перейти по [ссылке](https://github.com/Zhavoronkov24/mvn_project/tree/master/src/test/java/org/zhavoronkov/stepikcoverage)
