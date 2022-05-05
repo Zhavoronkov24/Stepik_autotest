@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.concurrent.TimeUnit;
 
-public class Case_id2 {
+public class Case_id2Test {
     public static void main(String[] args) {
 
         WebDriverManager.chromedriver().setup();

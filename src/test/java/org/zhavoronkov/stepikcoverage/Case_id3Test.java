@@ -4,13 +4,16 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.WindowType;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class Case_id3 {
-    public static void main(String[] args) {
+public class Case_id3Test {
+    public static void main(String[] args) throws InterruptedException {
 
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
@@ -26,10 +29,16 @@ public class Case_id3 {
         WebElement logoJB = driver.findElement(By.xpath("//*[@data-name=\"jetbrains\"]"));
         logoJB.click();
 
+        Thread.sleep(5000);
+
+        List<String> windowHandles = new ArrayList(driver.getWindowHandles());
+        String secondTab = windowHandles.get(1);
+        driver.switchTo().window(secondTab);
+
         // Уникальный элемент на странице
-        WebElement linkJB = driver.findElement(By.xpath("//*[@id=\"ember25\"]/div/div/div[3]/div[2]/p/a"));
+        WebElement linkJB = driver.findElement(By.xpath("//*[@href=\"https://www.jetbrains.com/\"]"));
         linkJB.isDisplayed();
 
-        // TODO допилить переход на др. вкладку
+        //driver.quit();
     }
 }
