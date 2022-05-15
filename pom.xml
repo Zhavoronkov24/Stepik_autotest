@@ -8,6 +8,8 @@
   <artifactId>mvn_project</artifactId>
   <version>1.0-SNAPSHOT</version>
 
+
+
   <name>mvn_project</name>
   <url>https://stepik.org/catalog</url>
 
@@ -46,6 +48,22 @@
       <scope>test</scope>
     </dependency>
     <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-java</artifactId>
+      <version>6.11.0</version>
+    </dependency>
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-junit</artifactId>
+      <version>6.11.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>info.cukes</groupId>
+      <artifactId>cucumber-java</artifactId>
+      <version>1.2.4</version>
+    </dependency>
+    <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-params</artifactId>
       <version>${junit.version}</version>
@@ -56,6 +74,12 @@
       <artifactId>junit-jupiter-api</artifactId>
       <version>${junit.version}</version>
       <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 
