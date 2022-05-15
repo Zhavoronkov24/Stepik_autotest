@@ -1,4 +1,4 @@
-package org.zhavoronkov.stepikcoverage.homework5cover;
+package org.zhavoronkov.stepikcoverage.auto;
 
 import io.cucumber.junit.Cucumber;
 import io.github.bonigarcia.wdm.WebDriverManager;

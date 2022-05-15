@@ -1,4 +1,4 @@
-package org.zhavoronkov.stepikcoverage;
+package org.zhavoronkov.stepikcoverage.old;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;

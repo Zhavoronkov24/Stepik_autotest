@@ -1,13 +1,13 @@
-package org.zhavoronkov.stepikcoverage.homework5cover.steps;
+package org.zhavoronkov.stepikcoverage.auto.steps;
 
 import io.cucumber.java.ru.И;
 import io.cucumber.java.ru.Когда;
 import io.cucumber.java.ru.Тогда;
-import org.zhavoronkov.stepikcoverage.homework5cover.RunnerTest;
-import org.zhavoronkov.stepikcoverage.homework5cover.pages.Header;
-import org.zhavoronkov.stepikcoverage.homework5cover.pages.LoginForm;
+import org.zhavoronkov.stepikcoverage.auto.RunnerTest;
+import org.zhavoronkov.stepikcoverage.auto.pages.Header;
+import org.zhavoronkov.stepikcoverage.auto.pages.LoginForm;
 import org.junit.Assert;
-import org.zhavoronkov.stepikcoverage.homework5cover.pages.RegForm;
+import org.zhavoronkov.stepikcoverage.auto.pages.RegForm;
 
 import java.util.concurrent.TimeUnit;
 

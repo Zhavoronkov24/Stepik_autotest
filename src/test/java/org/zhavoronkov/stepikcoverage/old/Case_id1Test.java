@@ -1,4 +1,4 @@
-package org.zhavoronkov.stepikcoverage;
+package org.zhavoronkov.stepikcoverage.old;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -41,7 +41,7 @@ public class Case_id1Test {
         loginButtonInForm.click();
 
         // Проверка отображения иконки пользователя
-        WebElement userIcon = driver.findElement(By.xpath("//*[@id=\"ember25\"]/button/img"));
+        WebElement userIcon = driver.findElement(By.xpath("//*[@alt=\"User avatar\"]"));
         userIcon.isDisplayed();
 
 

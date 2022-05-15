@@ -1,11 +1,11 @@
-package org.zhavoronkov.stepikcoverage.homework5cover.steps;
+package org.zhavoronkov.stepikcoverage.auto.steps;
 
 import io.cucumber.java.ru.Когда;
 import io.cucumber.java.ru.Тогда;
 import org.junit.Assert;
-import org.zhavoronkov.stepikcoverage.homework5cover.RunnerTest;
-import org.zhavoronkov.stepikcoverage.homework5cover.pages.CoursesPage;
-import org.zhavoronkov.stepikcoverage.homework5cover.pages.StepikBody;
+import org.zhavoronkov.stepikcoverage.auto.RunnerTest;
+import org.zhavoronkov.stepikcoverage.auto.pages.CoursesPage;
+import org.zhavoronkov.stepikcoverage.auto.pages.StepikBody;
 
 public class OtherSteps extends RunnerTest {
 

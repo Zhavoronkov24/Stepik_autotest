@@ -1,9 +1,9 @@
-package org.zhavoronkov.stepikcoverage.homework5cover.pages;
+package org.zhavoronkov.stepikcoverage.auto.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
-import org.zhavoronkov.stepikcoverage.homework5cover.RunnerTest;
+import org.zhavoronkov.stepikcoverage.auto.RunnerTest;
 
 public class Footer extends RunnerTest {
 
